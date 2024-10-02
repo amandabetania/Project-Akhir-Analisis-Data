@@ -12,11 +12,8 @@ st.write("ID Dicoding : amandabetaniamaritza")
 # Using Streamlit to describe the application
 st.title("Dashboard E-Commerce Analysis")
 
-# Path to dataset folder
-dataset_path = './main_data.csv'  # Adjust to your path
-
 # Load data
-df = pd.read_csv(dataset_path)
+df = pd.read_csv("main_data.csv")
 
 # Data Cleaning
 df['product_id'] = df['product_id'].astype(str)
