@@ -13,7 +13,7 @@ st.write("ID Dicoding : amandabetaniamaritza")
 st.title("Dashboard E-Commerce Analysis")
 
 # Load data
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/amandabetania/Project-Akhir-Analisis-Data/refs/heads/main/dashboard/main_data.csv")
 
 # Data Cleaning
 df['product_id'] = df['product_id'].astype(str)
